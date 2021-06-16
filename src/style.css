@@ -1,1 +1,67 @@
 /* css */
+body {
+  font-family: Georgia, Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c4b7a;
+  color: white;
+}
+.intro {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+.intro p {
+  letter-spacing: 0.1em;
+}
+
+textarea {
+  margin: 0 auto;
+  margin-left: 75px;
+  padding: 30px 40px;
+  border: solid #292929;
+  outline: none;
+  font-size: 14px;
+  vertical-align: top;
+}
+button {
+  display: block;
+  margin: 10px;
+  padding: 7px 40px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  background: #292929;
+  outline: none; /*Contorno do botão*/
+  border: 5px solid #5c4b7a;
+  border-radius: 8px;
+
+  margin-left: 120px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 25px;
+  background: #5c4b7a;
+  cursor: pointer;
+  border: 5px solid #292929;
+  border-radius: 4px;
+}
+
+/*. #input-original,
+#resultado 
+*/
