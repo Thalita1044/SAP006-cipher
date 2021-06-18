@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="intro">
+        <h1>Sete Chaves</h1>
+        <p>Aqui seus segredos estarão seguros. </p>
+        <p>A partir de agora, suas mensagens serão Codificadas!</p>
+
+      </div>
+      <form>
+        <label>
+          <textarea id="mensagem_cifrar" name="mensagem" cols="30" rows="4" placeholder="digite Sua Mensagem"></textarea>
+          <button id="enviar1" type="submit">Codificar</button>
+
+          <textarea id="mensagem_decifrar" name="men" cols="30" rows="4" placeholder="Cole seu código para  decifrar..."></textarea>
+          <button id="enviar2" type="submit">Decodificar</button>
+        </label>
+
+        <div id="caixa">
+          <input type="range" min="1" max="25" value="1" class="slider" id="contador" name="slider" oninput="rot.value=slider.value" /><output for="slider" id="rot">1</output>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

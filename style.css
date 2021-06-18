@@ -1,0 +1,103 @@
+/* css */
+body {
+  font-family: Georgia, Times, serif;
+  /*display: flex;
+  justify-content: center;
+  */
+  background-color: #5c4b7a;
+  color: white;
+}
+.intro {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+.intro p {
+  letter-spacing: 0.1em;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#mensagem_cifrar {
+  margin: 20px 20px 25px auto;
+  margin-left: 75px;
+  padding: 40px 40px;
+  border: solid #292929;
+  outline: none;
+  font-size: 14px;
+  vertical-align: top;
+}
+#mensagem_decifrar {
+  margin: 20px 20px 25px auto;
+  margin-left: 75px;
+  padding: 40px 40px;
+  border: solid #292929;
+  outline: none;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+#enviar1 {
+  width: 180px;
+  text-decoration: none;
+  justify-items: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  margin: 60px 20px;
+  background: none;
+  background-color: #9370db;
+  color: white;
+  cursor: pointer;
+}
+
+#enviar2 {
+  width: 180px;
+  text-decoration: none;
+  justify-items: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  margin: 60px 20px;
+  background: none;
+  background-color: #9370db;
+  color: white;
+  cursor: pointer;
+}
+
+#contador {
+  -webkit-appearance: none;
+  width: 30%;
+  height: 15px;
+  background: #292929;
+  outline: none; /*Contorno do botão*/
+  border: 5px solid #5c4b7a;
+  border-radius: 8px;
+  margin: 35px;
+  margin-left: 360px;
+}
+#contador::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 25px;
+  background: #5c4b7a;
+  cursor: pointer;
+  border: 5px solid #292929;
+  border-radius: 4px;
+}
+
+/*. #input-original,
+#resultado 
+*/
