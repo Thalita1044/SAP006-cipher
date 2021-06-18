@@ -9,29 +9,27 @@
 
 <body>
   <section>
-
     <div class="container">
       <div class="intro">
-        <h1>Cifra de César</h1>
-        <p>Aqui seus segredos estarão seguros.
-          <br>A partir de agora, suas mensagens serão Codificadas!</br>
-        </p>
-      </div>
+        <h1>Sete Chaves</h1>
+        <p>Aqui seus segredos estarão seguros. </p>
+        <p>A partir de agora, suas mensagens serão Codificadas!</p>
 
+      </div>
       <form>
         <label>
-          <textarea id="mensagem_cifrar" name="mensagem" coLs="30" rows="4" placeholder="digite Sua Mensagem...."></textarea>
+          <textarea id="mensagem_cifrar" name="mensagem" cols="30" rows="4" placeholder="digite Sua Mensagem"></textarea>
           <button id="enviar1" type="submit">Codificar</button>
-          <textarea id="mensagem_decifrar" name="men" coLs="30" rows="4" placeholder="Desifre Sua Mensagem...."></textarea>
-          <button id="enviar2" type="submit">Decodificar</button>
-          <div class="caixa">
-            <input type="range" min="1" max="11" value="1" class="slider" id="contador" value="11" name="slider">
-          </div>
 
+          <textarea id="mensagem_decifrar" name="men" cols="30" rows="4" placeholder="Cole seu código para  decifrar..."></textarea>
+          <button id="enviar2" type="submit">Decodificar</button>
         </label>
+
+        <div id="caixa">
+          <input type="range" min="1" max="25" value="1" class="slider" id="contador" name="slider" oninput="rot.value=slider.value" /><output for="slider" id="rot">1</output>
+        </div>
       </form>
     </div>
-
   </section>
 
   <script src="index.js" type="module"></script>

@@ -1,9 +1,9 @@
 /* css */
 body {
   font-family: Georgia, Times, serif;
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  */
   background-color: #5c4b7a;
   color: white;
 }
@@ -20,38 +20,74 @@ body {
 .intro p {
   letter-spacing: 0.1em;
 }
-
-textarea {
+.container {
+  max-width: 960px;
   margin: 0 auto;
+}
+
+#mensagem_cifrar {
+  margin: 20px 20px 25px auto;
   margin-left: 75px;
-  padding: 30px 40px;
+  padding: 40px 40px;
   border: solid #292929;
   outline: none;
   font-size: 14px;
   vertical-align: top;
 }
-button {
-  display: block;
-  margin: 10px;
-  padding: 7px 40px;
-  background: none;
-  color: white;
-  cursor: pointer;
-  margin: 10px auto;
+#mensagem_decifrar {
+  margin: 20px 20px 25px auto;
+  margin-left: 75px;
+  padding: 40px 40px;
+  border: solid #292929;
+  outline: none;
+  font-size: 14px;
+  vertical-align: top;
 }
 
-.slider {
+#enviar1 {
+  width: 180px;
+  text-decoration: none;
+  justify-items: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  margin: 60px 20px;
+  background: none;
+  background-color: #9370db;
+  color: white;
+  cursor: pointer;
+}
+
+#enviar2 {
+  width: 180px;
+  text-decoration: none;
+  justify-items: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  margin: 60px 20px;
+  background: none;
+  background-color: #9370db;
+  color: white;
+  cursor: pointer;
+}
+
+#contador {
   -webkit-appearance: none;
-  width: 50%;
+  width: 30%;
   height: 15px;
   background: #292929;
   outline: none; /*Contorno do botão*/
   border: 5px solid #5c4b7a;
   border-radius: 8px;
-
-  margin-left: 120px;
+  margin: 35px;
+  margin-left: 360px;
 }
-.slider::-webkit-slider-thumb {
+#contador::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 20px;
