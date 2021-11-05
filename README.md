@@ -1,6 +1,5 @@
-# Cifra de César
-
-                                                                                 SETE CHAVES
+# Cifra de César   
+SETE CHAVES
 
 O projeto Sete chaves foi baseado na Cifra de César onde se tem a técnica de cifrar uma mensagem.
 Por esse motivo esse site foi desenvolvido para pessoas que trabalham em algumas áreas como programadores, escritores e pesquisadores, que precisam manter suas ideias e informções "a sete chaves",dessa forma evitando plágios e roubos de informações .
